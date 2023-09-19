@@ -9,9 +9,9 @@ const Routes = () => {
 			<Route
 				path="/*"
 				element={
-					<div className="flex container mx-auto">
+					<div className="">
 						{/* <SideBar /> */}
-						<div className="w-full body overflow-y-auto">
+						<div className="">
 							<RoutesContainer>
                                 <Route path="/" element={<HomePage />} />
                                 <Route path="/Uml" element={<UmlPage />} />
