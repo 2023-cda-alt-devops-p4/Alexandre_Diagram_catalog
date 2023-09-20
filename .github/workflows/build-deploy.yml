@@ -17,10 +17,7 @@ jobs:
       run:
         working-directory: diagram_catalog
 
-    steps:
-      - name: Go to project
-        run: cd diagram_catalog
-        
+    steps: 
       - name: Checkout code
         uses: actions/checkout@v2
 
