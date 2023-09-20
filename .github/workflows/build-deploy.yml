@@ -14,8 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Go to project
-        run: cd diagram_catalog
         
       - name: Checkout code
         uses: actions/checkout@v2
