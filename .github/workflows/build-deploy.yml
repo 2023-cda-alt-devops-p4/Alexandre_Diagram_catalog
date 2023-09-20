@@ -29,6 +29,9 @@ jobs:
       - name: Installing NPM packages
         run: npm ci
 
+      - name: Updateing NPM packages
+        run: npm install
+
       - name: Building project
         run: npm run build
 
