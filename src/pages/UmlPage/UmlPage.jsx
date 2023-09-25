@@ -1,31 +1,27 @@
 import React, { useState, useEffect } from "react"
 import UmlData from "../../ressources/UmlData.json"
 import './umlpage.css';
+import axios from "axios";
 
 const UmlPage = () => {
-    const [umlData, setUmlData] = useState(0)
-
-    const getdata= () => {
-        fetch(UmlData).then((response) =>{
-            setUmlData(response)
-        })
-    }
+    const [umlData, setUmlData] = useState()
 
     useEffect(()=>{
-        getdata()
-    })
-
+        setUmlData(UmlData)
+        console.log(UmlData)
+    },[])
     return (
         <div className="umlpage-container">
             <div className="umlpage-header">
                 <h2 className="umlpage-header-tittle">
-
+                    {umlData?.tittle}
                 </h2>
                 <p className="umlpage-header-description">
-
+                    {umlData?.description}
                 </p>
             </div>
             <div className="umlpage-card_container">
+
 
             </div>
 
