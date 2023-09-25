@@ -1,11 +1,17 @@
-/* eslint-disable react/jsx-pascal-case */
 import React from "react"
+import './header.css';
 
 const Header = () => {
     return (
-        <di>
-            <h1>Test</h1>
-        </di>
+        <div className="header-container">
+            <div className="Header-burger-container">
+
+            </div>
+            <div className="Header-tittle-container">
+               <h1 className="Header-tittle">Diagramme catalogue</h1> 
+            </div>
+            
+        </div>
     )
 }
 

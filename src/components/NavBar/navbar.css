@@ -1,0 +1,17 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-homage-container{
+
+}
+
+.navbar-uml-container{
+
+}
+
+.navbar-merise-container{
+
+}
