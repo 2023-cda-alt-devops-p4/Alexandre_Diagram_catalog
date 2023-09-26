@@ -1,18 +1,69 @@
 import React, {useState,useEffect} from "react";
 import {useParams } from "react-router-dom";
-import UmlData from "../../ressources/UmlData.json"
+import UmlData from "../../ressources/UmlData.json";
+import MeriseData from "../../ressources/MeriseData.json";
+import './detailsPage.css';
+import DiagramComponent from "../../components/DiagramComponent/DiagramComponent";
 
-const DetailsPage = (props) => {
+const DetailsPage = () => {
     const { id,json } = useParams();
-    const [umlData, setUmlData] = useState()
+    const [umlData, setUmlData] = useState({});
+    const [meriseData, setMeriseData] = useState({});
+    const [isuml, setisuml] = useState();
 
     useEffect(()=>{
-        setUmlData(UmlData.diagrams.find((diagram) => diagram.id ==id))
-    },[])
+        if(json === "Umldata"){
+            setisuml(true);
+            const umltemp = UmlData.diagrams.find((diagram) => diagram.id == id);
+            setUmlData(umltemp);
+        } else {
+            setisuml(false);
+            const merisetemp = MeriseData.diagrams.find((diagram) => diagram.id == id);
+            setMeriseData(merisetemp);
+        }
+        
+    },[id, json])
 
     return (
+
         <div className="details_container">
-            <p>oui</p>
+            <div className="details_header">
+                <h3 className="details_header_name">
+                    {isuml ? umlData.name : meriseData.name}
+                </h3>
+                <p className="details_header_desc">
+                {isuml ? umlData.description : meriseData.description}
+                </p>
+            </div>
+            <div className="details_info_container">
+                <p className="details_header_desc">
+                {isuml ? umlData.details : meriseData.details}
+                </p>
+            </div>
+            <div className="details_main_img_container">
+                <img src={isuml ? umlData.url : meriseData.url} className="details_main_img" alt="diagram exemple"/>
+            </div>
+            <div className="diagram_components_container">
+                {isuml ? 
+                umlData.components?.map((component) => (
+                    <DiagramComponent 
+                        key={component.name}
+                        name={component.name} 
+                        url={component.url} 
+                        description={component.description} 
+                    />
+                )) 
+                : meriseData.components?.map((component) => (
+                    <DiagramComponent 
+                        key={component.name}
+                        name={component.name} 
+                        url={component.url} 
+                        description={component.description} 
+                    />
+                )) 
+
+                }
+            </div>
         </div>
     )
 }

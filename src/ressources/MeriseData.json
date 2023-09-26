@@ -1,0 +1,23 @@
+{
+    "tittle":"Diagrammes Merise",
+    "description":"",
+    "diagrams": [
+        {
+        "id": 1,
+        "name": "",
+        "description":"",
+        "url":"",
+        "details":"",
+        "essential":true,
+        "components":[
+            {
+                "name":"",
+                "url":"",
+                "description":""  
+            }
+        ]
+        }
+        
+    ]
+
+}

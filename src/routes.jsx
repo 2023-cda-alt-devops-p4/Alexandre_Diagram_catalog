@@ -1,7 +1,7 @@
 import { Route, Routes as RoutesContainer } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import UmlPage from "./pages/UmlPage/UmlPage"
-import MerisePage from "./pages/MerisePage"
+import MerisePage from "./pages/MerisePage/MerisePage"
 import DetailsPage from "./pages/detailspage/DetailsPage"
 
 const Routes = () => {
