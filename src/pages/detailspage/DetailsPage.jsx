@@ -14,13 +14,11 @@ const DetailsPage = () => {
     useEffect(() => {
         if (json === "Umldata") {
             setisuml(true);
-            // eslint-disable-next-line eqeqeq
-            const umltemp = UmlData.diagrams.find((diagram) => diagram.id == id);
+            const umltemp = UmlData.diagrams.find((diagram) => diagram.id === parseInt(id));
             setUmlData(umltemp);
         } else {
             setisuml(false);
-            // eslint-disable-next-line eqeqeq
-            const merisetemp = MeriseData.diagrams.find((diagram) => diagram.id == id);
+            const merisetemp = MeriseData.diagrams.find((diagram) => diagram.id === parseInt(id));
             setMeriseData(merisetemp);
         }
 
