@@ -1,27 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { slide as Menu } from 'react-burger-menu';
 import './ButtonBurger.css'
 
-const ButtonBuger = () => {
+const ButtonBuger = (props) => {
     return (
-        <div className="burger-container">
-            <div className="burger-homage-container">
-                <Link to="/">
+        <Menu>
+            <div className="burger-link-container">
+                <Link to="/" className="burger_link">
                     <h3> HomePage</h3>
                 </Link>
             </div>
-            <div className="burger-uml-container">
-                <Link to="/Uml">
+            <div className="burger-link-container">
+                <Link to="/Uml" className="burger_link">
                     <h3> UML</h3>
                 </Link>
             </div>
-            <div className="burger-merise-container">
-                <Link to="/Merise">
+            <div className="burger-link-container">
+                <Link to="/Merise" className="burger_link">
                     <h3> Merise</h3>
                 </Link>
             </div>
 
-        </div>
+        </Menu>
     )
 }
 

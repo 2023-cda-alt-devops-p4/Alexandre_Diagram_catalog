@@ -1,10 +1,9 @@
 .header-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .Header-burger-container{
-    width: 10%;
     display: none;
 }
 
@@ -16,4 +15,12 @@
 
 .Header-tittle{
 
+}
+
+@media (max-width: 767px) {
+    .Header-burger-container{
+        width: 10%;
+        display: flex;
+        z-index: 10;
+    }
 }
