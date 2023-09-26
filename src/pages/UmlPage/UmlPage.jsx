@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import UmlData from "../../ressources/UmlData.json"
 import './umlpage.css';
-import axios from "axios";
+import Card from "../../components/Card/Card";
 
 const UmlPage = () => {
     const [umlData, setUmlData] = useState()
@@ -21,8 +21,9 @@ const UmlPage = () => {
                 </p>
             </div>
             <div className="umlpage-card_container">
-
-
+                {umlData?.diagrams.map((diagram) => (
+                    <Card key={diagram.id} name={diagram.name} id={diagram.id} />
+                ))}
             </div>
 
         </div>

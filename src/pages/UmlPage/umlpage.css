@@ -1,0 +1,21 @@
+.umlpage-container{
+
+}
+
+.umlpage-header{
+
+}
+
+.umlpage-header-tittle{
+
+}
+
+.umlpage-header-description{
+
+}
+
+.umlpage-card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,0 +1,17 @@
+.Card-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+    height: 5rem;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+
+.card-link{
+
+}
+
+.Card-tittle{
+
+}

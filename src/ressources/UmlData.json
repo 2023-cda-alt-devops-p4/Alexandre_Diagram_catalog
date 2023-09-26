@@ -3,20 +3,7 @@
     "description":"",
     "diagrams": [
         {
-            "name": "",
-            "description":"",
-            "url":"",
-            "details":"",
-            "essential":true,
-            "components":[
-                {
-                    "name":"",
-                    "url":"",
-                    "description":""  
-                } 
-            ]
-        },
-        {
+        "id": 1,
         "name": "Diagramme de classes",
         "description":"Le diagramme de classes est utilisé, pour les langages orientés objet, de modéliser les objets. On modélise leur attribut, leur méthode, les liens entre les objets et les héritages",
         "url":"http://www.lsv.fr/~schmitz/teach/2003_AP_Java/UML/fig/projet.png",
@@ -61,6 +48,7 @@
         ]
         },
         {
+            "id": 2,
         "name": "Diagramme de composant",
         "description":"Diagramme utilisé pour representé la structure d'un systeme et les relations entre les composant de celui-ci. Le diagramme peut representé les composant principaut d'un logiciel d'un application web, d'un application mobile ...",
         "url":"",
@@ -75,6 +63,7 @@
         ]
     },
     {
+        "id": 3,
         "name": "Diagramme de déploiement",
         "description":"un diagramme de déploiement sert à représenter l'utilisation de l'infrastructure du système et la manière dont les composants sont répartis ainsi que leurs relations entre eux",
         "url":"",
@@ -89,6 +78,7 @@
         ]
     },
     {
+        "id": 4,
         "name": "Diagramme de structure composite",
         "description":"Ce Diagramme expose la structure interne d'un composant d'un systeme que l'on appelle structure composite ",
         "url":"",
@@ -103,6 +93,7 @@
         ]
     },
     {
+        "id": 5,
         "name": "le diagramme d'objet",
         "description":"le diagramme d'objet permet de representé des instances de classes et des relations entre ces instances",
         "url":"",
@@ -117,6 +108,7 @@
         ]
     },
     {
+        "id": 6,
         "name": "Diagramme de profil",
         "description":"Un diagramme Profil est tout diagramme créé dans un paquetage profil, il est utilisé en extenxion des autre diagrammes UML",
         "url":"",
@@ -131,6 +123,7 @@
         ]
     },
     {
+        "id": 7,
         "name": "Diagramme de temps",
         "description":"Le diagramme de temps montre comment les objets interagissent entre eux dans un laps de temps donné",
         "url":"",
@@ -145,6 +138,7 @@
         ]
     },
     {
+        "id": 8,
         "name": "Diagramme d'aperçu des interactions",
         "description":"Ce diagramme combinent des éléments de diagrammes d'activité avec des diagrammes de séquence pour montrer le flux de l'exécution de programme ",
         "url":"",
@@ -159,6 +153,7 @@
         ]
     },
     {
+        "id": 9,
         "name": "Diagramme de communication",
         "description":"Le diagramme de communication modélisent la manière dont les objets s’associent et se connectent par le biais de relations et de messages",
         "url":"",
@@ -173,6 +168,7 @@
         ]
     },
     {
+        "id": 10,
         "name": "Diagramme états-transitions",
         "description":"",
         "url":"",
@@ -187,6 +183,7 @@
         ]
     },
     {
+        "id": 11,
         "name": "Diagramme de séquence",
         "description":"",
         "url":"",
@@ -201,6 +198,7 @@
         ]
     },
     {
+        "id": 12,
         "name": "Diagramme d'activités",
         "description":"",
         "url":"",
