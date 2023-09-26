@@ -15,3 +15,9 @@
 .navbar-merise-container{
 
 }
+
+@media (max-width: 767px) {
+    .navbar-container{
+        display: none;
+    }
+}

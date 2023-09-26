@@ -1,6 +1,5 @@
 .header-container{
     display: flex;
-    justify-content: space-between;
 }
 
 .Header-burger-container{
@@ -8,7 +7,7 @@
 }
 
 .Header-tittle-container{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
