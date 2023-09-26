@@ -51,13 +51,38 @@
             "id": 2,
             "name": "Diagramme de composant",
             "description": "Diagramme utilisé pour representé la structure d'un systeme et les relations entre les composant de celui-ci. Le diagramme peut representé les composant principaut d'un logiciel d'un application web, d'un application mobile ...",
-            "url": "",
+            "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/New-Component-Diagram-for-Online-Shopping-System.png",
             "details": "Les composants du diagramme ne doivent pas être détaillé, seuls les noms des composants et les différentes relations doivent être représenté",
             "essential": false,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
+                    "name": "composant (n°1)",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Component-stereotype.png",
+                    "description": ""
+                },
+                {
+                    "name": "composant (n°2)",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Component-icon-1.png",
+                    "description": ""
+                },
+                {
+                    "name": "composant (n°3)",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Component-2.png",
+                    "description": ""
+                },
+                {
+                    "name": "Interface fournie et interface requise",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Assembly-Connector.png",
+                    "description": "Les interfaces dans les diagrammes de composants montrent comment les composants sont interagissent entre eux. Le connecteur d’assemblage permet de relier l’interface requise du composant à l’interface fournie d’un autre composant."
+                },
+                {
+                    "name": "Port",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Port.png",
+                    "description": "Le port est utilisé lorsque le composant délègue les interfaces à une classe interne."
+                },
+                {
+                    "name": "Dépendances",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Dependency.png",
                     "description": ""
                 }
             ]
