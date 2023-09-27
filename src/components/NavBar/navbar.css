@@ -1,23 +1,39 @@
+.navbar-main-container{
+    width: 100%;
+    position: fixed;
+}
 .navbar-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 6rem;
+    width: 100%;
+    background-color: white;
 }
 
-.navbar-homage-container{
-
+.navbar-link-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-.navbar-uml-container{
-
+.navbar-link{
+    height: 2rem;
+    margin-block-start: 0rem;
 }
 
-.navbar-merise-container{
+h3.navbar-text{
+    margin-block: 0rem;
+}
 
+hr.navbar-hr{
+    width: 100%;
+    box-shadow: 20px 2px 6px rgba(40, 44, 51, 0.2);
+    margin-block-start: 0rem;
 }
 
 @media (max-width: 767px) {
-    .navbar-container{
+    .navbar-main-container{
         display: none;
     }
 }

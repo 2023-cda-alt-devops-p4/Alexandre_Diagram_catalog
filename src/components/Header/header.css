@@ -1,5 +1,13 @@
+.header-main-container{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
 .header-container{
     display: flex;
+    width: 100%;
+    background-color:whitesmoke;
 }
 
 .Header-burger-container{
@@ -14,6 +22,12 @@
 
 .Header-tittle{
 
+}
+
+hr.header-hr{
+    width: 100%;
+    margin-block-start: 0rem;
+    box-shadow: 20px 2px 6px rgba(40, 44, 51, 0.2);
 }
 
 @media (max-width: 767px) {
