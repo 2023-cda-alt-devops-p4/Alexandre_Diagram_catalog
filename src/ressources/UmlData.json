@@ -12,7 +12,17 @@
             "components": [
                 {
                     "name": "Classes",
-                    "url": "https://www.lsv.fr/~schmitz/teach/2003_AP_Java/UML/fig/class.png",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Class-Notation.png",
+                    "description": ""
+                },
+                {
+                    "name": "Interface",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Interface-notation.png",
+                    "description": ""
+                },
+                {
+                    "name": "Paquet",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Package.png",
                     "description": ""
                 },
                 {
@@ -91,14 +101,39 @@
             "id": 3,
             "name": "Diagramme de déploiement",
             "description": "un diagramme de déploiement sert à représenter l'utilisation de l'infrastructure du système et la manière dont les composants sont répartis ainsi que leurs relations entre eux",
-            "url": "",
+            "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/New-Deployment-Diagram-for-Online-Shopping-System-2.png",
             "details": "Dans ce diagramme on représente les composant, systeme ou utilisateur, les relations ainsi que les environement au quel ils appartiennes",
             "essential": false,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
-                    "description": ""
+                    "name": "Nœuds",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Artifacts.png",
+                    "description": "représenté sous forme de cube, est une entité physique qui exécute un ou plusieurs composants"
+                },
+                {
+                    "name": "Artifacts",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Node.png",
+                    "description": "Les artefacts sont des éléments concrets qui sont causés par un processus de développement, il peuvent être des artefacts des bibliothèques, des archives, des fichiers exécutables ..."
+                },
+                {
+                    "name": "Association",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Communication-path.png",
+                    "description": "Il indique le chemin de la communication entre les nœuds."
+                },
+                {
+                    "name": "Dispositifs",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Device.png",
+                    "description": "Un dispositif est un nœud qui sert à représenter une ressource physique de calcul dans un système"
+                },
+                {
+                    "name": "Composant",
+                    "url": "https://support.content.office.net/fr-fr/media/470ed34d-3724-46a8-a6a5-bdaa69a02a98.png",
+                    "description": "rectangle avec deux onglets indiquant un élément logiciel."
+                },
+                {
+                    "name": "Spécifications de déploiement",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/09/Deployment-specification.png",
+                    "description": "Les spécifications de déploiement sont un fichier de configuration, tel qu’un fichier texte ou un document XML. Il décrit comment un artefact est déployé sur un nœud."
                 }
             ]
         },
@@ -111,9 +146,29 @@
             "essential": false,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
-                    "description": ""
+                    "name": "Partie",
+                    "url": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/blog/Part.png",
+                    "description": "Agit comme une instance d'exécution des classes ou des interfaces"
+                },
+                {
+                    "name": "Port",
+                    "url": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/blog/Port.png",
+                    "description": "Agit comme un point d'interaction entre une instance de classifieur et son environnement"
+                },
+                {
+                    "name": "Classifieur et interface",
+                    "url": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/blog/Class.png",
+                    "description": "Un classifieur structuré représente une classe, dans la plupart des cas une classe abstraite, dont le comportement peut être décrit complètement ou partiellement par le biais d'interactions entre parties"
+                },
+                {
+                    "name": "Collaboration",
+                    "url": "https://www.sparxsystems.fr/images/screenshots/uml2_tutorial/CP08.GIF",
+                    "description": "Dans les diagrammes UML, une collaboration est un type de discriminant structuré dans lequel les rôles et attributs coopèrent pour définir la structure interne d'un discriminant."
+                },
+                {
+                    "name": "Connecteur",
+                    "url": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/blog/Connector.png",
+                    "description": "Représente les liens de communication entre les parties ou collaboration"
                 }
             ]
         },
@@ -121,12 +176,17 @@
             "id": 5,
             "name": "le diagramme d'objet",
             "description": "le diagramme d'objet permet de representé des instances de classes et des relations entre ces instances",
-            "url": "",
+            "url": "https://www.sparxsystems.fr/images/screenshots/uml2_tutorial/ob02.GIF",
             "details": "",
             "essential": true,
             "components": [
                 {
-                    "name": "",
+                    "name": "Objet",
+                    "url": "https://www.sparxsystems.fr/images/screenshots/uml2_tutorial/ob01.GIF",
+                    "description": "Les objets désignent les instances d'une classe."
+                },
+                {
+                    "name": "Liens",
                     "url": "",
                     "description": ""
                 }
@@ -136,14 +196,34 @@
             "id": 6,
             "name": "Diagramme de profil",
             "description": "Un diagramme Profil est tout diagramme créé dans un paquetage profil, il est utilisé en extenxion des autre diagrammes UML",
-            "url": "",
+            "url": "https://www.sparxsystems.fr/enterprise_architect_user_guide/16.1/images/stereotypewithstrictness.png",
             "details": "Un profil est une collection de ces extensions qui décrivent ensemble un problème de modélisation particulier et facilitent modélisation dans ce domaine",
             "essential": false,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
-                    "description": ""
+                    "name": "Profile",
+                    "url": "https://www.sparxsystems.fr/enterprise_architect_user_guide/16.1/images/e-profile.png",
+                    "description": "La première étape de la création d'un Profil UML consiste à créer un Paquetage de Profils ayant le stéréotype «profil» dans votre modèle de développement technique."
+                },
+                {
+                    "name": "Stereotype",
+                    "url": "https://www.sparxsystems.fr/enterprise_architect_user_guide/16.1/images/e-stereotype.png",
+                    "description": "Les éléments stéréotypés représentent la manière dont chaque object est étendu."
+                },
+                {
+                    "name": "Métaclasse",
+                    "url": "https://www.sparxsystems.fr/enterprise_architect_user_guide/16.1/images/e-metaclass.png",
+                    "description": "Les éléments de métaclasse représentent les types d' object qu'il faut étendre dans votre Paquetage de profil."
+                },
+                {
+                    "name": "Extension",
+                    "url": "https://www.sparxsystems.fr/enterprise_architect_user_guide/16.1/images/c-extension.png",
+                    "description": "Les connecteurs de type Extension représentent une relation 'extents' entre deux éléments."
+                },
+                {
+                    "name": "Généralisation",
+                    "url": "https://www.sparxsystems.fr/enterprise_architect_user_guide/16.1/images/c-generalize.png",
+                    "description": "Une généralisation est utilisée pour indiquer l'héritage."
                 }
             ]
         },
@@ -151,22 +231,17 @@
             "id": 7,
             "name": "Diagramme de temps",
             "description": "Le diagramme de temps montre comment les objets interagissent entre eux dans un laps de temps donné",
-            "url": "",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Diagrama_de_tiempos.png/220px-Diagrama_de_tiempos.png",
             "details": "",
             "essential": true,
             "components": [
-                {
-                    "name": "",
-                    "url": "",
-                    "description": ""
-                }
             ]
         },
         {
             "id": 8,
             "name": "Diagramme d'aperçu des interactions",
             "description": "Ce diagramme combinent des éléments de diagrammes d'activité avec des diagrammes de séquence pour montrer le flux de l'exécution de programme ",
-            "url": "",
+            "url": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/discovery-page/UML-interaction-diagram/interaction-diagram@2x.png",
             "details": "On peut également utiliser un diagramme d'aperçu d'interaction pour déconstruire un scénario complexe qui nécessiterait normalement plusieurs chemins d'accès if-then-else pour être illustrés en tant qu'un seul diagramme de séquence",
             "essential": false,
             "components": [
