@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import { slide as Menu } from 'react-burger-menu';
 import './ButtonBurger.css'
 
 const ButtonBuger = (props) => {
+    
     return (
         <Menu>
-            <div className="burger-link-container">
+            <div className="burger-link-container" >
                 <Link to="/" className="burger_link">
                     <h3> HomePage</h3>
                 </Link>
