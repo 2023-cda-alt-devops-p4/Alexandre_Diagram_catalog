@@ -7,7 +7,7 @@ const Card = (props) => {
 
     return (
         <div className="Card-container">
-            <Link to={"/details/Umldata/"+props.id} className="card-link">
+            <Link to={"/details/"+props.data+props.id} className="card-link">
                 <h3 className="Card-tittle">
                     {props.name}
                 </h3>

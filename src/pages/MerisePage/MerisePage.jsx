@@ -21,7 +21,7 @@ const MerisePage = () => {
             </div>
             <div className="umlpage-card_container">
                 {meriseData?.diagrams.map((diagram) => (
-                    <Card key={diagram.id} name={diagram.name} id={diagram.id} />
+                    <Card key={diagram.id} name={diagram.name} id={diagram.id} data={"MeriseData/"} />
                 ))}
             </div>
 

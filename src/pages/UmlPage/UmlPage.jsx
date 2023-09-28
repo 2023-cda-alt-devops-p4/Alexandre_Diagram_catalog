@@ -21,7 +21,7 @@ const UmlPage = () => {
             </div>
             <div className="umlpage-card_container">
                 {umlData?.diagrams.map((diagram) => (
-                    <Card key={diagram.id} name={diagram.name} id={diagram.id} />
+                    <Card key={diagram.id} name={diagram.name} id={diagram.id} data={"Umldata/"} />
                 ))}
             </div>
 

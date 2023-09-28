@@ -1,23 +1,66 @@
 {
-    "tittle":"Diagrammes Merise",
-    "description":"",
+    "tittle": "Diagrammes Merise",
+    "description": "",
     "diagrams": [
         {
-        "id": 1,
-        "name": "",
-        "description":"",
-        "url":"",
-        "details":"",
-        "essential":true,
-        "components":[
-            {
-                "name":"",
-                "url":"",
-                "description":""  
-            }
-        ]
+            "id": 1,
+            "name": "MCD (Modèle Conceptuel des Données) ",
+            "description": "",
+            "url": "",
+            "details": "",
+            "essential": true,
+            "components": [
+                {
+                    "name": "",
+                    "url": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "MLD",
+            "description": "",
+            "url": "",
+            "details": "",
+            "essential": true,
+            "components": [
+                {
+                    "name": "",
+                    "url": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "MCT",
+            "description": "",
+            "url": "",
+            "details": "",
+            "essential": true,
+            "components": [
+                {
+                    "name": "",
+                    "url": "",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "MLT",
+            "description": "",
+            "url": "",
+            "details": "",
+            "essential": true,
+            "components": [
+                {
+                    "name": "",
+                    "url": "",
+                    "description": ""
+                }
+            ]
         }
-        
     ]
-
 }
