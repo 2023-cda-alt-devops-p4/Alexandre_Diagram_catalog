@@ -29,9 +29,9 @@ const DetailsPage = () => {
         <div className="details_container">
             <div className="details_header">
                 <div className="details_header_info">
-                    <h3 className="details_header_name">
+                    <h2 className="details_header_name">
                         {isuml ? umlData.name : meriseData.name}
-                    </h3>
+                    </h2>
                     <p className="details_header_desc">
                         {isuml ? umlData.description : meriseData.description}
                     </p>

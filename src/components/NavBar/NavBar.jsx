@@ -5,24 +5,28 @@ import './navbar.css'
 const NavBar = () => {
 
     return (
-        <div className="navbar-container">
-            <div className="navbar-homage-container">
-                <Link to="/">
-                    <h3> HomePage</h3>
-                </Link>
-            </div>
-            <div className="navbar-uml-container">
-                <Link to="/Uml">
-                    <h3> UML</h3>
-                </Link>
-            </div>
-            <div className="navbar-merise-container">
-                <Link to="/Merise">
-                    <h3> Merise</h3>
-                </Link>
-            </div>
+        <div className="navbar-main-container">
+            <div className="navbar-container">
+                <div className="navbar-link-container">
+                    <Link to="/" className="navbar-link">
+                        <h3 className="navbar-text"> HomePage</h3>
+                    </Link>
+                </div>
+                <div className="navbar-link-container">
+                    <Link to="/Uml" className="navbar-link">
+                        <h3 className="navbar-text"> UML</h3>
+                    </Link>
+                </div>
+                <div className="navbar-link-container">
+                    <Link to="/Merise" className="navbar-link">
+                        <h3 className="navbar-text"> Merise</h3>
+                    </Link>
+                </div>
 
+            </div>
+            <hr className="navbar-hr" />
         </div>
+
     )
 }
 

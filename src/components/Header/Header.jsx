@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
 import './header.css';
 import ButtonBuger from "../ButtonBurger/ButtonBurger";
 
@@ -10,17 +10,20 @@ const Header = () => {
     }
 
     return (
-        <div className="header-container">
-            <div className="Header-burger-container" onClick={toggleBurger}>
-                <ButtonBuger pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        <div className="header-main-container">
+            <div className="header-container">
+                <div className="Header-burger-container" onClick={toggleBurger}>
+                    <ButtonBuger pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                </div>
+                <div className="Header-tittle-container">
+                    <h1 className="Header-tittle">
+                        Diagramme catalogue
+                    </h1>
+                </div>
             </div>
-            <div className="Header-tittle-container">
-               <h1 className="Header-tittle">
-                    Diagramme catalogue
-                </h1> 
-            </div>
-            
+            <hr className="header-hr" />
         </div>
+
     )
 }
 
