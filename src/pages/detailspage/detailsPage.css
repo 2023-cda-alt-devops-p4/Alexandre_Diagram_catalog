@@ -5,22 +5,29 @@
 }
 
 .details_header{
-
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .details_header_info{
-
+    width: 50%;
 }
 
-.details_header_name{
-
+h2.details_header_name{
+    margin-block-start: 0rem;
 }
 
 .details_main_img_container{
-
+    padding-right: 1rem;
 }
 
 .details_main_img{
     max-width: 100%;
-    height: autos;
+}
+
+.diagram_components_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
