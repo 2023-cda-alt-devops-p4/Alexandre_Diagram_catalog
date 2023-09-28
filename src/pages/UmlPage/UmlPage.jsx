@@ -8,7 +8,6 @@ const UmlPage = () => {
 
     useEffect(()=>{
         setUmlData(UmlData)
-        console.log(UmlData)
     },[])
     return (
         <div className="umlpage-container">

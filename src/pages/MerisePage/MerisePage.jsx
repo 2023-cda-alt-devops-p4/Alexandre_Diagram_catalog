@@ -8,7 +8,6 @@ const MerisePage = () => {
 
     useEffect(()=>{
         setmeriseData(MeriseData)
-        console.log(MeriseData)
     },[])
     return (
         <div className="umlpage-container">
