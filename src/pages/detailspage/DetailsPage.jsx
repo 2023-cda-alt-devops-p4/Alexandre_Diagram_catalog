@@ -35,12 +35,15 @@ const DetailsPage = () => {
                     <p className="details_header_desc">
                         {isuml ? umlData.description : meriseData.description}
                     </p>
-                    <p className="details_detail">
-                        {isuml ? umlData.details : meriseData.details}
-                    </p>
+
                 </div>
                 <div className="details_main_img_container">
                     <img src={isuml ? umlData.url : meriseData.url} className="details_main_img" alt="diagram exemple" />
+                </div>
+                <div className="details_detail_container">
+                    <p className="details_detail">
+                        {isuml ? umlData.details : meriseData.details}
+                    </p>
                 </div>
             </div>
             <div className="diagram_components_container">

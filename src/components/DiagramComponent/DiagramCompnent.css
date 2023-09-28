@@ -8,18 +8,18 @@
     flex-direction: row;
 }
 
+.component-img-container{
+    max-width: 60%;
+}
+
 .component_img{
     max-width: 100%;
-    height: auto;
+    margin-right: 0.5rem;
 }
 
 @media (max-width: 736px) {
     .component-desc-container{
         display: flex;
         flex-direction: column;
-    }
-    .component_img{
-        max-width: 60%;
-        height: auto;
     }
 }

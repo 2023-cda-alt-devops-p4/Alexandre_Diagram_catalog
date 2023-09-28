@@ -7,10 +7,15 @@
 .details_header{
     margin-top: 0.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .details_header_info{
+    width: 50%;
+}
+
+.details_detail_container{
     width: 50%;
 }
 
@@ -30,4 +35,18 @@ h2.details_header_name{
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+@media (max-width: 736px) {
+    .diagram_components_container{
+        width: 100%;
+        
+    }
+    .details_header_info{
+        width: 100%;
+    }
+    .details_detail_container{
+        width: 100%;
+    }
+    
 }

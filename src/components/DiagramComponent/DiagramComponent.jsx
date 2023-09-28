@@ -9,7 +9,9 @@ const DiagramComponent = (props) => {
                 {props.name}
             </h4>
             <div className="component-desc-container">
-                <img src={props.url} alt="component of diagram" className="component_img" />
+                <div className="component-img-container">
+                    <img src={props.url} alt="component of diagram" className="component_img" />
+                </div>
                 <p className="component_desc">
                     {props.description}
                 </p>
