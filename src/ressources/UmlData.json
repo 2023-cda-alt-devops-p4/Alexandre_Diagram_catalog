@@ -141,7 +141,7 @@
             "id": 4,
             "name": "Diagramme de structure composite",
             "description": "Ce Diagramme expose la structure interne d'un composant d'un systeme que l'on appelle structure composite ",
-            "url": "",
+            "url": "https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/blog/UML-composite-structure-diagram@2x.png",
             "details": "",
             "essential": false,
             "components": [
@@ -178,7 +178,7 @@
             "description": "le diagramme d'objet permet de representé des instances de classes et des relations entre ces instances",
             "url": "https://www.sparxsystems.fr/images/screenshots/uml2_tutorial/ob02.GIF",
             "details": "",
-            "essential": true,
+            "essential": false,
             "components": [
                 {
                     "name": "Objet",
@@ -233,7 +233,7 @@
             "description": "Le diagramme de temps montre comment les objets interagissent entre eux dans un laps de temps donné",
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Diagrama_de_tiempos.png/220px-Diagrama_de_tiempos.png",
             "details": "",
-            "essential": true,
+            "essential": false,
             "components": [
             ]
         },
@@ -285,31 +285,153 @@
         {
             "id": 11,
             "name": "Diagramme de séquence",
-            "description": "",
-            "url": "",
+            "description": "Les diagrammes de séquence modélisent les interactions entre les objets dans un cas d’utilisation unique. Ils illustrent la manière dont les différentes parties d’un système interagissent entre elles pour exécuter une fonction, et l’ordre dans lequel les interactions se produisent.",
+            "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Alternative-fragment-example-1.png",
             "details": "",
             "essential": true,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
+                    "name": "Ligne de vie",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Sequence-diagram-Lifeline.png",
                     "description": ""
+                },
+                {
+                    "name": "Ligne de vie d'un utilisateur",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/lifeline-with-an-actor-element-symbol.png",
+                    "description": ""
+                },
+                {
+                    "name": "Message synchrone",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Synchronous-Message.png",
+                    "description": "Un message synchrone est utilisé lorsque l’expéditeur attend que le destinataire traite le message et revienne avant de continuer avec un autre message."
+                },
+                {
+                    "name": "Message asynchrone",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Asynchronous-Message-example.png",
+                    "description": "Un message asynchrone est utilisé lorsque l’appelant n’attend pas que le destinataire traite le message et revienne avant d’envoyer d’autres messages à d’autres objets du système."
+                },
+                {
+                    "name": "Retour du message",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Return-Message-Example.png",
+                    "description": "Un message de retour est utilisé pour indiquer que le destinataire du message a fini de traiter le message et qu’il rend le contrôle à l’appelant."
+                },
+                {
+                    "name": "Message de création des participants",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Participant-creation-example.png",
+                    "description":""
+                },
+                {
+                    "name": "Message de destruction du participant",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Participation-Destruction-Message.png",
+                    "description":""
                 }
             ]
         },
         {
             "id": 12,
             "name": "Diagramme d'activités",
-            "description": "",
-            "url": "",
+            "description": "Un diagramme d’activité UML permet de visualiser un certain cas d’utilisation à un niveau plus détaillé. Il s’agit d’un diagramme de comportement qui illustre le flux des activités dans un système.",
+            "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/New-Online-Shopping-System.png",
             "details": "",
             "essential": true,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
-                    "description": ""
+                    "name": "Nœud initial",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Start.png",
+                    "description": "Utilisé pour représenter le point de départ ou l’état initial d’une activité"
+                },
+                {
+                    "name": "Activité",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Activity-300x120.png",
+                    "description": "Utilisé pour représenter les activités du processus"
+                },
+                {
+                    "name": "Contrôle du flux",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Control-flow-300x44.png",
+                    "description": "Utilisé pour représenter le flux de contrôle d’une action à l’autre"
+                },
+                {
+                    "name": "Flux d’objets",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Object-flow-300x29.png",
+                    "description": "Utilisé pour représenter le cheminement des objets se déplaçant dans l’activité"
+                },
+                {
+                    "name": "Activité nœud final",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Final-node-80x80.png",
+                    "description": "Utilisé pour marquer la fin de tous les flux de contrôle au sein de l’activité"
+                },
+                {
+                    "name": "Nœud final du flux",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Flow-final-node.png",
+                    "description": "Utilisé pour marquer la fin d’un flux de contrôle unique"
+                },
+                {
+                    "name": "Nœud de décision",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Decision-node-and-merge-node.png",
+                    "description": "Utilisé pour représenter un point de branchement conditionnel"
+                },
+                {
+                    "name": "barre de synchronisation",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Merge-300x171.png",
+                    "description": "Associe deux activités simultanées et les réintroduit dans un flux où n'a lieu qu'une seule activité à la fois."
+                },
+                {
+                    "name": "Symbole d'embranchement",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Fork-300x169.png",
+                    "description": "Divise un flux d'activités en deux activités simultanées."
+                },
+                {
+                    "name": "Envoi de signaux",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Signal-sending.png",
+                    "description": "Indique qu'un signal est envoyé à une activité réceptrice."
+                },
+                {
+                    "name": "Réception du signal",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Signal-receipt.png",
+                    "description": "Utilisé pour indiquer que le signal est reçu"
+                },
+                {
+                    "name": "Commentaire",
+                    "url": "https://d3n817fwly711g.cloudfront.net/uploads/2018/08/Note-or-comment.png",
+                    "description": "Utilisé pour ajouter des commentaires"
                 }
+                
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Diagramme de cas d'utilisation",
+            "description": "",
+            "url": "https://www.siloged.fr/cours/STI2D_sysml/lib/NouvelElement.png",
+            "details": "",
+            "essential": true,
+            "components": [
+                {
+                    "name": "Acteur",
+                    "url": "data:image/png;base64,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",
+                    "description": "Un acteur est une entité extérieure au système modélisé, et qui interagit directement avec lui."
+                },
+                {
+                    "name": "Cas d'utilisation",
+                    "url": "data:image/png;base64,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",
+                    "description": "Un cas d’utilisation est un service rendu à un acteur : c’est une fontionnalité de son point de vue."
+                },
+                {
+                    "name": "Relation general",
+                    "url": "data:image/png;base64,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",
+                    "description": "le cas A est une généralisation du cas du cas B et on lit B est une sorte de A"
+                },
+                {
+                    "name": "Relation d'extention",
+                    "url": "data:image/png;base64,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",
+                    "description": "B est une partie optionelle de A et on lit B étend A"
+                },
+                {
+                    "name": "Relation d'inclution",
+                    "url": "data:image/png;base64,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",
+                    "description": " B est une partie obligatoire de A et on lit A inclut B"
+                }
+                
             ]
         }
     ]

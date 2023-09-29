@@ -5,51 +5,51 @@
         {
             "id": 1,
             "name": "MCD (Modèle Conceptuel des Données) ",
-            "description": "",
-            "url": "",
-            "details": "",
+            "description": "Le MCD est un diagramme qui represente la structure d'une base de donnée relationnel  ",
+            "url": "https://www.prospection-ciblee.com/wp-content/uploads/2021/06/exemple-MCD.jpg",
+            "details": "Sont representé, les entités et leur attributs, les relations entre les entités, les cardinalités des relations",
             "essential": true,
             "components": [
                 {
-                    "name": "",
-                    "url": "",
-                    "description": ""
+                    "name": "Entité",
+                    "url": "https://ineumann.developpez.com/tutoriels/merise/initiation-merise/images/entite.png",
+                    "description": "Une entité est composé de son nom, un ou plusieur identifiants at de ces propriétés"
+                },
+                {
+                    "name": "Association",
+                    "url": "https://ineumann.developpez.com/tutoriels/merise/initiation-merise/images/association.png",
+                    "description": "Une association définit un lien entre une ou plusieurs entités."
+                },
+                {
+                    "name": "Relation et cardinalité",
+                    "url": "https://ineumann.developpez.com/tutoriels/merise/initiation-merise/images/etre_ne.png",
+                    "description": "Les cardinalités les plus répandues sont les suivantes : 0,N (aucun, un ou plusieurs) ; 1,N (un ou plusieurs) ; 0,1 (aucun ou un) ; 1,1 (un et un seul)"
                 }
             ]
         },
         {
             "id": 2,
-            "name": "MLD",
-            "description": "",
-            "url": "",
-            "details": "",
+            "name": "MLD (Modèle Logique des Données)",
+            "description": "Le MLD est une évolution du MCD",
+            "url": "https://www.memoireonline.com/01/12/5207/Gestion-des-donnees-de-suivi-et-d-evaluation-des-activites-de-lutte-contre-le-paludisme--l-oues2.png",
+            "details": "Les entités deviennent des tables , les clés etranger sont representés des les tables grace a un #, les clés primaire sont soulignés, les association ne sont plus représenté ",
             "essential": true,
             "components": [
-                {
-                    "name": "",
-                    "url": "",
-                    "description": ""
-                }
             ]
         },
         {
             "id": 3,
-            "name": "MCT",
-            "description": "",
-            "url": "",
+            "name": "MPD",
+            "description": "Un MPD est utilisé pour reprensenté l'implementation dans un SGBDR",
+            "url": "https://www.base-de-donnees.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2016/02/mpd-merise-768x288.jpg.webp",
             "details": "",
-            "essential": true,
+            "essential": false,
             "components": [
-                {
-                    "name": "",
-                    "url": "",
-                    "description": ""
-                }
             ]
         },
         {
             "id": 4,
-            "name": "MLT",
+            "name": "",
             "description": "",
             "url": "",
             "details": "",
