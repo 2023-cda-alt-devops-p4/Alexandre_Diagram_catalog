@@ -9,17 +9,17 @@ const ButtonBuger = (props) => {
         <Menu>
             <div className="burger-link-container" >
                 <Link to="/" className="burger_link">
-                    <h3> HomePage</h3>
+                    <h3 className="burger-link-text"> HomePage</h3>
                 </Link>
             </div>
             <div className="burger-link-container">
                 <Link to="/Uml" className="burger_link">
-                    <h3> UML</h3>
+                    <h3 className="burger-link-text"> UML</h3>
                 </Link>
             </div>
             <div className="burger-link-container">
                 <Link to="/Merise" className="burger_link">
-                    <h3> Merise</h3>
+                    <h3 className="burger-link-text"> Merise</h3>
                 </Link>
             </div>
 
