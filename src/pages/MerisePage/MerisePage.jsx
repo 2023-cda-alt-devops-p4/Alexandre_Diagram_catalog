@@ -10,16 +10,16 @@ const MerisePage = () => {
         setmeriseData(MeriseData)
     },[])
     return (
-        <div className="umlpage-container">
-            <div className="umlpage-header">
-                <h2 className="umlpage-header-tittle">
+        <div className="Merisepage-container">
+            <div className="Merisepage-header">
+                <h2 className="Merisepage-header-tittle">
                     {meriseData?.tittle}
                 </h2>
-                <p className="umlpage-header-description">
+                <p className="Merisepage-header-description">
                     {meriseData?.description}
                 </p>
             </div>
-            <div className="umlpage-card_container">
+            <div className="Merisepage-card_container">
                 {meriseData?.diagrams.map((diagram) => (
                     <Card key={diagram.id} name={diagram.name} id={diagram.id} data={"MeriseData/"} essential={diagram.essential} />
                 ))}

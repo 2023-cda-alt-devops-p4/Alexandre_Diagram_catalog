@@ -1,0 +1,21 @@
+.Merisepage-container{
+    padding-top: 8rem;
+}
+
+.Merisepage-header{
+
+}
+
+.Merisepage-header-tittle{
+    margin-left: 1rem;
+}
+
+.Merisepage-header-description{
+
+}
+
+.Merisepage-card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
