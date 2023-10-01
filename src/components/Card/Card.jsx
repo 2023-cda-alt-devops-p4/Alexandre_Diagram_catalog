@@ -12,6 +12,11 @@ const Card = (props) => {
                     {props.name}
                 </h3>
             </Link>
+            {props.essential 
+            ? (<div className="Card-essential">
+                    <p className="Card-essential-text">* Essentiel *</p>
+                </div>) 
+            : null}
         </div>
     )
 }
