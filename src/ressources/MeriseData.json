@@ -39,7 +39,7 @@
         },
         {
             "id": 3,
-            "name": "MPD",
+            "name": "MPD (Modèle Physique des Données)",
             "description": "Un MPD est utilisé pour reprensenté l'implementation dans un SGBDR",
             "url": "https://www.base-de-donnees.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2016/02/mpd-merise-768x288.jpg.webp",
             "details": "",
