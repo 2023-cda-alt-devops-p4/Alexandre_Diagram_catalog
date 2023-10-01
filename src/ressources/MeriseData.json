@@ -1,6 +1,6 @@
 {
     "tittle": "Diagrammes Merise",
-    "description": "",
+    "description": "Merise est un ensemble de diagrammes pour la conception de projet informatique",
     "diagrams": [
         {
             "id": 1,
@@ -45,21 +45,6 @@
             "details": "",
             "essential": false,
             "components": [
-            ]
-        },
-        {
-            "id": 4,
-            "name": "",
-            "description": "",
-            "url": "",
-            "details": "",
-            "essential": true,
-            "components": [
-                {
-                    "name": "",
-                    "url": "",
-                    "description": ""
-                }
             ]
         }
     ]
