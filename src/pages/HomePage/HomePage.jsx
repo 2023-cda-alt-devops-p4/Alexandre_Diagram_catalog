@@ -4,9 +4,9 @@ import './HomePage.css'
 const HomePage = () => {
     return (
       <div className="homePage-container">
-        <h2>Bienvenue sur Diagram Catalog</h2>
+        <h2>Bienvenue sur Diagramme Cataloge</h2>
         <p>
-          oui
+          Ce site est un rappel des diagramme UML et Merise
         </p>
       </div>
     );
