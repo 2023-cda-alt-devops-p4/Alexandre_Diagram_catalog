@@ -34,7 +34,7 @@ h2.details_header_name{
 .diagram_components_container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
 }
 
 @media (max-width: 736px) {

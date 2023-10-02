@@ -9,7 +9,8 @@
 }
 
 .component-img-container{
-    max-width: 60%;
+    max-width: 100%;
+    min-width: 50%
 }
 
 .component_img{

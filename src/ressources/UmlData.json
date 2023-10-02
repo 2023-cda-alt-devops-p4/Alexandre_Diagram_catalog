@@ -286,7 +286,7 @@
             "id": 11,
             "name": "Diagramme de séquence",
             "description": "Les diagrammes de séquence modélisent les interactions entre les objets dans un cas d’utilisation unique. Ils illustrent la manière dont les différentes parties d’un système interagissent entre elles pour exécuter une fonction, et l’ordre dans lequel les interactions se produisent.",
-            "url": "https://d3n817fwly711g.cloudfront.net/uploads/2017/01/Alternative-fragment-example-1.png",
+            "url": "https://support.content.office.net/fr-fr/media/7ecba6de-09df-4c14-af49-51142cd79e04.png",
             "details": "",
             "essential": true,
             "components": [
@@ -401,9 +401,9 @@
         {
             "id": 13,
             "name": "Diagramme de cas d'utilisation",
-            "description": "",
+            "description": "Les diagrammes de cas d'utilisation décrivent les fonctions générales du système",
             "url": "https://www.siloged.fr/cours/STI2D_sysml/lib/NouvelElement.png",
-            "details": "",
+            "details": "Le diagramme identifie également les interactions entre le système et ses acteurs.",
             "essential": true,
             "components": [
                 {
